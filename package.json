@@ -1,16 +1,19 @@
+
+
+
 {
   "name": "weather-app",
-   "private": true,
-   "version": "0.0.0",
-   "type": "module",
-   "homepage": "https://smshah121.github.io/Weather-React-App",
-   "scripts": {
-     "dev": "vite",
-     "build": "vite build",
-     "lint": "eslint .",
-     "preview": "vite preview",
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://smshah121.github.io/Weather-Web-App",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.8.4",
@@ -34,5 +37,4 @@
     "tailwindcss": "^3.4.17",
     "vite": "^6.2.3"
   }
-  
 }
