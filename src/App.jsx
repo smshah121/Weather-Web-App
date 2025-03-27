@@ -13,7 +13,8 @@ const App = () => {
   const [windSpeed, setWindSpeed] = useState(null);
   const [cityName, setCityName] = useState("");
   const [weatherIcon, setWeatherIcon] = useState("01d");
-  const API_KEY = "cf9a456c17fc35b79228a8bd9efe5604";
+  VITE_OPENWEATHERMAP_API_KEY="cf9a456c17fc35b79228a8bd9efe5604";
+  const API_KEY = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
   const fetchWeather = async ()=>{
     try {
       const {data} = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${API_KEY}`)
