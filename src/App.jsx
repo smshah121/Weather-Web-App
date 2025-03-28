@@ -13,7 +13,6 @@ const App = () => {
   const [windSpeed, setWindSpeed] = useState(null);
   const [cityName, setCityName] = useState("");
   const [weatherIcon, setWeatherIcon] = useState("01d");
-  VITE_OPENWEATHERMAP_API_KEY="cf9a456c17fc35b79228a8bd9efe5604";
   const API_KEY = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
   const fetchWeather = async ()=>{
     try {

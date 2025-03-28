@@ -9,7 +9,7 @@
   "homepage": "https://smshah121.github.io/Weather-Web-App",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/Weather-Web-App/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
